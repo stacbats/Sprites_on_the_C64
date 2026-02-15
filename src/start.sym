@@ -1,0 +1,25 @@
+.label MAP_TILES=$8000
+.label VIC=$80e {
+  .label BORDER_COLOR=$d020
+  .label COLOR_RAM=$d800
+  .label MEMORY_SETUP=$d018
+  .label BACKGROUND_COLOR=$d021
+}
+.label Entry=$8c8
+.label MAPLOADER=$80e {
+  .label DrawMap=$812 {
+    .label Col=$3
+    .label Scr=$866
+    .label TileLookup=$860
+    .label Color=$870
+    .label Tile=$83d
+    .label Row=$2
+  }
+  .label TileScreenLocations=$80e
+}
+.label MAP_1=$80d8
+.label SCREEN_RAM=$c000
+.label START=$80e
+.label TEMP1=$2
+.label CHAR_COLORS=$806c
+.label TEMP2=$3
